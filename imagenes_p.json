@@ -1,0 +1,4531 @@
+var iglesias = {
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Catedral",
+		"text": "",
+		"link": "",
+		"fecha": "15/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "catedral2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.224872,
+		  -13.160771 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "San Agust&#237n",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "san_agustin" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.224810,
+		  -13.159862  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Buena Muerte",
+		"text": "",
+		"link": "",
+		"fecha": "15/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "buena_muerte" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.223976,
+		  -13.161490 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Capilla Gran Chimu",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "gran_chimu" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.236627,
+		  -13.168238,  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Templo de San Francisco de As&#237s",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "san_francisco" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.226678,
+		  -13.163487   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Monasterio de Santa Clara de As&#237s",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "santa_clara" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.228478,
+		  -13.162987   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Monasterio Santa Teresa",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "santa_teresa" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.227875,
+		  -13.167802 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Templo La Merced",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "la_merced" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.225372,
+		  -13.162571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Templo del Arco",
+		"text": "",
+		"link": "",
+		"fecha": "10/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "arco" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.225002,
+		  -13.154341   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Pampa de San Agust&#237n",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "pampa_san_agustin" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.2232665,
+		  -13.1622857  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Santo Domingo",
+		"text": "",
+		"link": "",
+		"fecha": "10/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "santo_domingo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.22541743,
+		  -13.15845578  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Compan&#237a de Jes&#250s",
+		"text": "",
+		"link": "",
+		"fecha": "",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "compania_jesus" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.226728,
+		  -13.161250  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "San Francisco de Paula",
+		"text": "",
+		"link": "",
+		"fecha": "10/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "san_francisco_de_paula" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.2273292,
+		  -13.1597350  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cristiana Pentecostes",
+		"text": "",
+		"link": "",
+		"fecha": "10/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "cristiana_pentecostes" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.2263245,
+		  -13.1589438  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "San Amargura",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "san_amargura" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.22105617,
+		  -13.16073847 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "San Juan Bautista",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "san_juan_bautista" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.223349,
+		  -13.166383   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Lima",
+		"text": "",
+		"link": "",
+		"fecha": "06/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220406_lima" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.228012,
+		  -13.160460   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Plaza Mayor",
+		"text": "",
+		"link": "",
+		"fecha": "06/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220406_plaza_mayor" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.225800,
+		  -13.160492   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Puerta grande",
+		"text": "",
+		"link": "",
+		"fecha": "06/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220406_puerta_grande" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.227065,
+		  -13.163413  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Avenida Universitaria",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220407_avenida_universitaria" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.219410,
+		  -13.150541   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Taller de carros",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220407_avenida_universitaria2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.217781,
+		  -13.152381   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Jose Olaya",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220407_olaya" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.230892,
+		  -13.158592   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Interior de la iglesia",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220407_compania_de_jesus" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.226939,
+		  -13.161214    
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Manifestaci&#243n",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220407_manifestacion" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.225597,
+		  -13.159799    
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cusco",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220407_cusco" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.223576,
+		  -13.160275   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "G. Alvares",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220407_g_alvares" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.215817,
+		  -13.154650   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Las Nazarenas",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220407_nazarenas" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.216111,
+		  -13.154640   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Escalera",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220407_mestizo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.223415,
+		  -13.160126    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Pisos",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220407_mestizo2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.223373,
+		  -13.160159    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Callao",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "noroeste",
+		"copyright": "WK",
+		"fichero": "20220407_callao" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.230842,
+		  -13.158494   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Entrada",
+		"text": "",
+		"link": "",
+		"fecha": "08/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220408_mestizo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.223387,
+		  -13.160296    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Salvador Cavero",
+		"text": "",
+		"link": "",
+		"fecha": "08/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220408_salvador_cavero" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.218054,
+		  -13.158206   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Santa Berta",
+		"text": "",
+		"link": "",
+		"fecha": "08/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220408_santa_berta" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.218994,
+		  -13.158671  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Aeropuerto",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220409_aeropuerto" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.203803,
+		  -13.154511    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Alto",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220409_alto" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.222438,
+		  -13.170887   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Edwin Donayre",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220409_edwin_donayre" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.19809200,
+		  -13.149832   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "San Juan Bautista",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220409_bautista" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.2235590,
+		  -13.166583   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Evitamiento",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220409_evitamiento" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.218017,
+		  -13.162009   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Los Robles",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220409_los_robles" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.197034,
+		  -13.145848   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Mirador",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220409_mirador" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.222233,
+		  -13.171029   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista a la planta de depuracion",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "noroeste",
+		"copyright": "WK",
+		"fichero": "20220409_planta_de_depuracion" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.205112,
+		  -13.144595  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Calle con cactus",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220409_prolongacion_cusco" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.220116,
+		  -13.160808   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Puente nueva",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220409_puente_nueva" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.223343,
+		  -13.163870  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "R&#237o",
+		"text": "",
+		"link": "",	
+		"fecha": "09/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220409_rio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.219791,
+		  -13.161184   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Rueda gigante",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220409_rueda_gigante" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.222003,
+		  -13.172222   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "3 cruces",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220409_tres_cruces" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.223068,
+		  -13.169381   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Zoo",
+		"text": "",
+		"link": "",
+		"fecha": "09/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220409_zoo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.214747,
+		  -13.157775  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Bellido",
+		"text": "",
+		"link": "",
+		"fecha": "10/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220410_bellido" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.227794,
+		  -13.158115   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Bellido",
+		"text": "",
+		"link": "",
+		"fecha": "10/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220410_bellido2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.226004,
+		  -13.158531   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Arica",
+		"text": "",
+		"link": "",
+		"fecha": "10/04/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220410_arica" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.235145,
+		  -13.157634   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Arica",
+		"text": "",
+		"link": "",
+		"fecha": "10/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220410_arica2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.232768,
+		  -13.158610   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Catedral",
+		"text": "",
+		"link": "",
+		"fecha": "10/04/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220410_catedral" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.225356,
+		  -13.160808   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Plaza Mayor durante la Semana Santa",
+		"text": "",
+		"link": "",
+		"fecha": "10/04/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220410_plaza_mayor" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.225837,
+		  -13.159749  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "28 de julio cerca del mercado",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220411_28_de_julio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.227385,
+		  -13.164735 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Iguain",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220411_iguain" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.230874,
+		  -13.168563   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Casa con madera",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220411_casa_con_madera" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.230283,
+		  -13.166287   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Covid19",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220411_covid19" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.225423,
+		  -13.160582  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cruzero",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220411_cruzero" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.232199,
+		  -13.168769 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Kindergarten",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "noroueste",
+		"copyright": "WK",
+		"fichero": "20220411_kindergarten" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.229283,
+		  -13.167526  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Hostia",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220411_hostia" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.225283,
+		  -13.159880   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Capilla verde",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220411_capilla_verde" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.231247,
+		  -13.167238   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Patio de la universidad",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220411_patio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.227081,
+		  -13.162130   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "R&#237o seco",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220411_rio_seco" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.227421,
+		  -13.167039   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Sala del curso",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220411_sala" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.227174,
+		  -13.162189    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "R&#237o Alameda",
+		"text": "",
+		"link": "",
+		"fecha": "11/04/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220411_san_lorenzo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.225432,
+		  -13.167143   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Plaza Andr&#233s Abelino C&#225ceres",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220412_caceres" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0b0",
+        "coordinates": [
+          -74.225676,
+		  -13.149749   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Calle simple",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220412_calle_sin_asfalt" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.234889,
+		  -13.146305  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "La cruz",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220412_cruz" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.242687,
+		  -13.157168   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cusco delante del Mestizo",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220412_cusco" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.223357,
+		  -13.160295  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Escalera",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220412_escalera" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.239282,
+		  -13.163860  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Escalera de llantas",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220412_escalera_de_llantas" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.232792,
+		  -13.143863   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "La cruz sobre la ciudad",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220412_hacia_picota" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.244198,
+		  -13.158415  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Avenida Independencia",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220412_independencia" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.223331,
+		  -13.152723  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Semana Santa en la Cusco",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220412_semana_santa_cusco" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.223189,
+		  -13.160345   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Semana Santa",
+		"text": "",
+		"link": "",
+		"fecha": "13/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220413_semana_santa" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.225206,
+		  -13.160327    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Avenida Ramon Castilla",
+		"text": "",
+		"link": "",
+		"fecha": "15/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220415_ramon_castilla" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.222115,
+		  -13.164032   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Camino sobre el r&#237o",
+		"text": "",
+		"link": "",
+		"fecha": "15/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220415_camino_sobre_rio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.215073,
+		  -13.168444   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Avenida de las Americas",
+		"text": "",
+		"link": "",
+		"fecha": "15/04/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220415_las_americas" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.210925,
+		  -13.171208   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Edificio",
+		"text": "",
+		"link": "",
+		"fecha": "15/04/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220415_edificio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.210995,
+		  -13.171142   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Edificio",
+		"text": "",
+		"link": "",
+		"fecha": "15/04/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220415_edificio2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.210609,
+		  -13.171412  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Feria al Carmen Alto",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220416_carmen_alto_feria" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.221309,
+		  -13.171507   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Mercado",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220416_carmen_alto_mercado" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.222495,
+		  -13.176296   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Feria",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220416_mirador_feria" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.221726,
+		  -13.171447   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Feria",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "noroeste",
+		"copyright": "WK",
+		"fichero": "20220416_mirador_feria2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.221739,
+		  -13.171491   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Semana Santa al mirador",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220416_mirador_mercado" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.220307,
+		  -13.172463   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Arco de la Alameda",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220416_arco_alameda" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.227298,
+		  -13.168709   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Puerta sur de la Alameda",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220416_puerta_sur_alameda" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.227253,
+		  -13.171259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "R&#237o",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220416_rio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.227811,
+		  -13.167109  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Concierto",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220416_concierto" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.225571,
+		  -13.160924 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Alegre processi&#243n",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220416_semana_santa_procession" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.226998,
+		  -13.172678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Fiesta folkl&#243rica",
+		"text": "",
+		"link": "",
+		"fecha": "16/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220416_semana_santa2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.226188,
+		  -13.159715, 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Mr. Pan",
+		"text": "",
+		"link": "",
+		"fecha": "17/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220417_mr_pan" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.226931,
+		  -13.162675  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Fila en la 28 de Julio",
+		"text": "",
+		"link": "",
+		"fecha": "18/04/2022",
+		"direccion": "",
+		"copyright": "WK",
+		"fichero": "20220418_28_de_julio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.226613,
+		  -13.161335  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Edificio",
+		"text": "",
+		"link": "",
+		"fecha": "18/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220418_edificio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.221802,
+		  -13.162965   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Patio de la universidad",
+		"text": "",
+		"link": "",
+		"fecha": "18/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220418_patio_de_la_universidad" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          0,
+		  0   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Puente sobre el r&#237o Alameda",
+		"text": "",
+		"link": "",
+		"fecha": "18/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220418_puente" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.221078,
+		  -13.162921   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cusco durante una tensi&#243n",
+		"text": "",
+		"link": "",
+		"fecha": "21/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220421_jiron_cusco" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.223141,
+		  -13.160340   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Supermercado durante una tensi&#243n",
+		"text": "",
+		"link": "",
+		"fecha": "21/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220421_supermercado" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.226946,
+		  -13.162500  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Jose Santos Chocano",
+		"text": "",
+		"link": "",
+		"fecha": "23/04/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220423_chocano" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.213313,
+		  -13.152698  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Carretera",
+		"text": "",
+		"link": "",
+		"fecha": "23/04/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220423_carretera" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.222628,
+		  -13.140933   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Carretera",
+		"text": "",
+		"link": "",
+		"fecha": "23/04/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220423_carretera2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.221508,
+		  -13.142620  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Calle al Norte",
+		"text": "",
+		"link": "",
+		"fecha": "23/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220423_norte" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.227898,
+		  -13.138376 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "La Marina",
+		"text": "",
+		"link": "",
+		"fecha": "23/04/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220423_marina" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.227914,
+		  -13.145278  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Tereno de la UNSCH",
+		"text": "",
+		"link": "",
+		"fecha": "23/04/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220423_campus" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.222524,
+		  -13.141489  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Templo Jes&#250s Nazareno",
+		"text": "",
+		"link": "",
+		"fecha": "23/04/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220423_jesus_nazareno" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.213574,
+		  -13.149509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Lugar de Conmemoraci&#243n",
+		"text": "",
+		"link": "",
+		"fecha": "23/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220423_lugar_conm" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.223231,
+		  -13.136611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Augusto Leguia",
+		"text": "",
+		"link": "",
+		"fecha": "23/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220423_leguia" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.218382,
+		  -13.155282   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Los sauces",
+		"text": "",
+		"link": "",
+		"fecha": "23/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220423_los_sauces" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.227999,
+		  -13.138317   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Feria a la Plaza Mayor",
+		"text": "",
+		"link": "",
+		"fecha": "29/04/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220429_plaza_mayor" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.226181,
+		  -13.160827   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Sciencias de Agronom&#237a",
+		"text": "",
+		"link": "",
+		"fecha": "30/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220430_agronomia" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.222002,
+		  -13.145063   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vuelo con drone",
+		"text": "",
+		"link": "",
+		"fecha": "30/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220430_drone" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.223234,
+		  -13.144407   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Avenida Independencia",
+		"text": "",
+		"link": "",
+		"fecha": "30/04/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220430_independencia" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.222908,
+		  -13.150182   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Carrera de carros",
+		"text": "",
+		"link": "",
+		"fecha": "30/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220430_carrera" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.225253,
+		  -13.160616   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cactus floreciente",
+		"text": "",
+		"link": "",
+		"fecha": "01/05/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220501_cactus" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.218161,
+		  -13.190788   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Restaurante a la calle",
+		"text": "",
+		"link": "",
+		"fecha": "01/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220501_restaurante" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.223565,
+		  -13.181667 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Edificio",
+		"text": "",
+		"link": "",
+		"fecha": "01/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220501_edificio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.221499,
+		  -13.183069  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Quito",
+		"text": "",
+		"link": "",
+		"fecha": "01/05/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220501_quito" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.221115,
+		  -13.190936   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Carretera polvorienta",
+		"text": "",
+		"link": "",
+		"fecha": "01/05/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220501_carril" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.226158,
+		  -13.200209  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Pasaje Mao Tse Tung",
+		"text": "",
+		"link": "",
+		"fecha": "01/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220501_mao" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.221545,
+		  -13.167353    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista a Yanama",
+		"text": "",
+		"link": "",
+		"fecha": "01/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220501_yanama" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.225052,
+		  -13.198874   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Carmen Alto",
+		"text": "",
+		"link": "",
+		"fecha": "01/05/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220501_carmen_alto" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.221452,
+		  -13.187103  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vacunaci&#243n",
+		"text": "",
+		"link": "",
+		"fecha": "06/05/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220506_vacunacion" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.226464,
+		  -13.160882   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Berro en la Alameda",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220507_alameda_berro" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.227212,
+		  -13.169437   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Camino provisional",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220507_camino_provisional" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.222705,
+		  -13.195478 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Iglesia de Carmen Alto",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220507_carmen_alto" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.226550,
+		  -13.176361   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Chanchos",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220507_chanchos" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.226649,
+		  -13.193019   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Molles",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220507_escalera" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.203498,
+		  -13.185598    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Iglesia Evangelica Pentecostal",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220507_iepp" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.227575,
+		  -13.190106    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista al Yanama",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220507_pendiente" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.222783,
+		  -13.194972     
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista de Yanama",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220507_pendiente_del_este" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.210176,
+		  -13.199991   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Yanama",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220507_plaza_yanama" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.216720,
+		  -13.201028  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Puente provisional",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220507_puente_provisional" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.222800,
+		  -13.196008   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Valle del R&#237o Huatatas",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220507_valle" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.204275,
+		  -13.199750    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista de Yanama",
+		"text": "",
+		"link": "",
+		"fecha": "07/05/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220507_yanama" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.220162,
+		  -13.197151    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "San Mart&#237n",
+		"text": "",
+		"link": "",
+		"fecha": "11/05/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220511_san_martin" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.225127,
+		  -13.162307    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista de ViaVia",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220515_viavia" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.226492,
+		  -13.160611   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Los Andes",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220515_andes" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.221652,
+		  -13.155938    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Perez de Cuellar",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220515_cuellar" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.229006,
+		  -13.138884   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Calle a Mollepata",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220515_mollepata" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.232969,
+		  -13.134057    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Calle a Mollepata",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220515_mollepata2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.233956,
+		  -13.134854   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Libertad Americana",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220515_libertad" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.233161,
+		  -13.128397    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Campo del esportes",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220515_campo_del_esportes" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.219476,
+		  -13.152559    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Edificio",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220515_edificio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.226049,
+		  -13.144503    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista al estadio",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220515_estadio" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.219338,
+		  -13.151454    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Gesti&#243n agraria",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220515_gestion" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.224729,
+		  -13.146049    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Luna (noche de la eclipse de luna)",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220515_luna" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.226378,
+		  -13.158230    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Pendiente de Mollepata",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220515_mollepata3" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.232063,
+		  -13.133224    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Mercado en Mollepata",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220515_mercado" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.229770,
+		  -13.128734   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Mercado de las plantas",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220515_mercado2" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.231135,
+		  -13.128724   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Mont&#243n de piedras en la carretera",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220515_monton" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.234406,
+		  -13.132116    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Pendiente al Norte de las Rosas",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220515_pendiente" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.229773,
+		  -13.133794    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Calle a Mollepata",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220515_pendientes_en_ayacucho" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.234918,
+		  -13.134649   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Terrapuerto",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "noroeste",
+		"copyright": "WK",
+		"fichero": "20220515_terrapuerto" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.229825,
+		  -13.134380    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista de Mollepata",
+		"text": "",
+		"link": "",
+		"fecha": "15/05/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220515_topografia_de_ayacucho" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.232099,
+		  -13.130252    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Plaza Mayor, 6:50h",
+		"text": "",
+		"link": "",
+		"fecha": "17/05/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220517_plaza_mayor" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.226126,
+		  -13.159733    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cunca con monumento",
+		"text": "",
+		"link": "",
+		"fecha": "18/05/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220518_cunca" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.218665,
+		  -13.161913    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Dos r&#237os",
+		"text": "",
+		"link": "",
+		"fecha": "18/05/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220518_rios" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.219517,
+		  -13.162646    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Gymnasio",
+		"text": "",
+		"link": "",
+		"fecha": "20/05/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220520_power_fitness" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.228056,
+		  -13.157916     
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Edificio",
+		"text": "",
+		"link": "",
+		"fecha": "22/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220522_edificio_cristina" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.228387,
+		  -13.153159    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Carlos F. Vivanco",
+		"text": "",
+		"link": "",
+		"fecha": "25/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220525_vivanco" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.227914,
+		  -13.162904   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Sala del curso",
+		"text": "",
+		"link": "",
+		"fecha": "25/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220525_sala" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.227060,
+		  -13.162189  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cusco",
+		"text": "",
+		"link": "",
+		"fecha": "27/05/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220527_cusco" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.223664,
+		  -13.160220    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Introducci&#243n de la separaci&#243n de residuos",
+		"text": "",
+		"link": "",
+		"fecha": "01/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220601_basura" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.226119,
+		  -13.159207   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Segunda habitaci&#243n",
+		"text": "",
+		"link": "",
+		"fecha": "02/06/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220602_los_alamos" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.223763,
+		  -13.160194  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cruzero",
+		"text": "",
+		"link": "",
+		"fecha": "03/06/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220603_cusco_tres_mascaras" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.223870,
+		  -13.160200  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Alameda con r&#237o",
+		"text": "",
+		"link": "",
+		"fecha": "05/06/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220605_alameda" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.226964,
+		  -13.169978   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Andamarca",
+		"text": "",
+		"link": "",
+		"fecha": "05/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220605_andamarca" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.228444,
+		  -13.174364   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Calle en las afueras de la ciudad",
+		"text": "",
+		"link": "",
+		"fecha": "05/06/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220605_calle_sin_asfalt" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.232609,
+		  -13.178785    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "San Lorenzo",
+		"text": "",
+		"link": "",
+		"fecha": "05/06/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220605_san_lorenzo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.225794,
+		  -13.167693   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Santa Ana",
+		"text": "",
+		"link": "",
+		"fecha": "05/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220605_santa_ana" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.230813,
+		  -13.170072   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Sol",
+		"text": "",
+		"link": "",
+		"fecha": "05/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220605_sol" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.222895,
+		  -13.161312    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista a la ciudad",
+		"text": "",
+		"link": "",
+		"fecha": "05/06/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220605_vista" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.236652,
+		  -13.177161    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Basura",
+		"text": "",
+		"link": "",
+		"fecha": "06/06/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220606_basura" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.220695,
+		  -13.152547    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Restaurante Los Alamos",
+		"text": "",
+		"link": "",
+		"fecha": "07/06/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220607_los_alamos" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.223669,
+		  -13.160028     
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Ensalada con lomo",
+		"text": "",
+		"link": "",
+		"fecha": "11/06/2022",
+		"direccion": "",
+		"copyright": "WK",
+		"fichero": "20220611_ensalada_con_lomo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.223336,
+		  -13.160012     
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "F&#250tbol Per&#250 - Australia",
+		"text": "",
+		"link": "",
+		"fecha": "13/06/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220613_peru_australia" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.225385,
+		  -13.160090     
+        ]
+      }
+    },
+   {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Yuracc Yuracc",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220618_yuracc" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.238879,
+		  -13.162351    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Camino empinado",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220618_camino_empinado" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.239368,
+		  -13.161432    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Hotel",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220618_hotel" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.239960,
+		  -13.163013    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Corazon",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220618_corazon" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.243212,
+		  -13.179111    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Los Andes",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220618_andes" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.232194,
+		  -13.161511    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Templo de Soquiaqato",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220618_soquiaqato" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.229549,
+		  -13.161451    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Iglesia amarilla",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220618_iglesia_amarilla" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.234559,
+		  -13.161538    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Iglesia roja",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220618_iglesia_roja" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.231426,
+		  -13.161001    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Sr. de Quinuapata",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220618_quinuapata" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.233881,
+		  -13.166025    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Mirador",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "noroeste",
+		"copyright": "WK",
+		"fichero": "20220618_mirador" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.242680,
+		  -13.179880    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Olimpiada",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220618_olimpiada" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#73a",
+        "coordinates": [
+          -74.225402,
+		  -13.160866    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista a la ciudad",
+		"text": "",
+		"link": "",
+		"fecha": "18/06/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220618_vista" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.246886,
+		  -13.178424    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Quebrada",
+		"text": "",
+		"link": "",
+		"fecha": "19/06/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220619_quebrada" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.219042,
+		  -13.163889    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Construcci&#243n en ruinas",
+		"text": "",
+		"link": "",
+		"fecha": "19/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220619_edficio_grande" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.200920,
+		  -13.166325    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Grifo",
+		"text": "",
+		"link": "",
+		"fecha": "19/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220619_grifo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.212145,
+		  -13.167831    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Iglesia",
+		"text": "",
+		"link": "",
+		"fecha": "19/06/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220619_iglesia" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.212789,
+		  -13.167636    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Lugar de conmemoraci&#243n",
+		"text": "",
+		"link": "",
+		"fecha": "19/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220619_conmemoracion" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.222196,
+		  -13.160610  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Santa Rosa",
+		"text": "",
+		"link": "",
+		"fecha": "19/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220619_santa_rosa" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.209779,
+		  -13.168539    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Verde en la ciudad",
+		"text": "",
+		"link": "",
+		"fecha": "19/06/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220619_verde" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.219091,
+		  -13.163275    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Agaves",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220626_agaves" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.206441,
+		  -13.175786    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Carranza",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220626_carranza" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.220803,
+		  -13.167955     
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vallejo",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "20220626_vallejo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.220093,
+		  -13.167515    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Campo",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220626_campo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.196340,
+		  -13.181078   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Clinica",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220626_clinica" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.199051,
+		  -13.167027    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cruz roja",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220626_cruz_roja" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.196304,
+		  -13.175914    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Desague",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220626_desague" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.224090,
+		  -13.160155    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Hospital",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220626_hospital" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.208860,
+		  -13.173342   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Palmeras",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220626_palmeras" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.206320,
+		  -13.175754    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Santa Elena",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "suroeste",
+		"copyright": "WK",
+		"fichero": "20220626_elena" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.197707,
+		  -13.169267    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Edificio",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220626_puerta_de_madera" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.220442,
+		  -13.167801    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Tartas",
+		"text": "",
+		"link": "",
+		"fecha": "26/06/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220626_tartas" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.216036,
+		  -13.166741    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "San Lorenzo",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220703_lorenzo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.224545,
+		  -13.164850    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Ciencias de Agrarias",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220703_ciencias_de_agrarias" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.225421,
+		  -13.160679   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Cristo",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220703_cristo" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.222076,
+		  -13.171467   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Desague",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "este",
+		"copyright": "WK",
+		"fichero": "20220703_desague" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.220667,
+		  -13.160889    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Propaganda electoral",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220703_propaganda" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.224792,
+		  -13.166221    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Escalera",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220703_escalera" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#fa0",
+        "coordinates": [
+          -74.220016,
+		  -13.164427    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Pabell&#243n con panorama",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "noroeste",
+		"copyright": "WK",
+		"fichero": "20220703_mirador" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.222526,
+		  -13.170881   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Propaganda electoral",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "sureste",
+		"copyright": "WK",
+		"fichero": "20220703_reklama" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.224682,
+		  -13.165906   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Restaurante",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220703_restaurante" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.220932,
+		  -13.171782    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Torre",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220703_torre" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.221683,
+		  -13.171436   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Torre de antena",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220703_antena" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c00",
+        "coordinates": [
+          -74.222950,
+		  -13.171558    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Vista al oeste",
+		"text": "",
+		"link": "",
+		"fecha": "03/07/2022",
+		"direccion": "oeste",
+		"copyright": "WK",
+		"fichero": "20220703_vista" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0bf",
+        "coordinates": [
+          -74.222615,
+		  -13.171443    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Palmeras",
+		"text": "",
+		"link": "",
+		"fecha": "14/07/2022",
+		"direccion": "noreste",
+		"copyright": "WK",
+		"fichero": "20220714_palmeras" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#0c0",
+        "coordinates": [
+          -74.226293,
+		  -13.160670     
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Capilla en la monta&#241a",
+		"text": "",
+		"link": "",
+		"fecha": "12/04/2022",
+		"direccion": "norte",
+		"copyright": "WK",
+		"fichero": "capilla" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#ff0",
+        "coordinates": [
+          -74.242112,
+		  -13.156563   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Alojamiento",
+		"text": "",
+		"link": "",
+		"fecha": "07/04/2022",
+		"direccion": "sur",
+		"copyright": "WK",
+		"fichero": "20220407_alojamiento" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#c61",
+        "coordinates": [
+          -74.223352,
+		  -13.160097    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "&#191Por qu&#233?",
+		"text": "Trabaj&#233 para el DAAD en la UNSCH (Universidad Nacional de San Crist&#243bal de Huamanga) de Ayacucho de abril a julio de 2022. Como no ten&#237a carro ni bicicleta, he caminado por la ciudad en mi tiempo libre y quiero compartir con vosotros estas fotos mis paseos." + "<br>" + "----------" + "<br>" + "Im Auftrag des DAAD habe ich von April bis Juli 2022 an der UNSCH (Universidad Nacional de San Crist&#243bal de Huamanga) in Ayacucho gearbeitet. Da ich weder Auto noch Fahrrad hatte, habe ich die Stadt in meiner Freizeit zu Fu&#223 erwandert und m&#246chte euch mit diesen Bildern an meinen Spazierg&#228ngen teilhaben lassen.",
+		"link": "",
+		"fecha": "",
+		"direccion": "",
+		"copyright": "",
+		"fichero": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#000",
+        "coordinates": [
+          -74.260000,
+		  -13.120000    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "&#191Qu&#233?",
+		"text": "Ayacucho es la capital de la provincia del mismo nombre, una de las 24 del Per&#250, y tiene casi 100.000 habitantes. He visto la diferencia entre el centro de la ciudad y su periferia, la arquitectura regional, la grandiosa topograf&#237a de la alta monta&#241a (2500m al noreste de la ciudad, 3300m al Coraz&#243n), innumerables fiestas e im&#225genes de la vida normal." + "<br>" + "----------" + "<br>" + "Ayacucho ist die Hauptstadt der gleichnamigen Provinz, einer von 24 in Peru, und hat knapp 100.000 Einwohner. Gesehen habe ich den Wandel des Stadtbildes vom Zentrum zur Peripherie, die regionale Architektur, die grandiose Topographie des Hochgebirges (2500m im Nordosten der Stadt, 3300m am Corazon), unz&#228hlige Volksfeste und Bilder vom normalen Leben.",
+		"link": "",
+		"fecha": "",
+		"direccion": "",
+		"copyright": "",
+		"fichero": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#000",
+        "coordinates": [
+          -74.170000,
+		  -13.120000    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "&#191Qui&#233n?",
+		"text": "Hasta hace dos a&#241os trabaj&#233 en la Universidad de Neubrandenburg en el campo de la fotogrametr&#237a y la geoinform&#225tica. Cuando me jubilaci&#243n, trabajo para el DAAD." + "<br>" + "----------" + "<br>" + "Bis vor zwei Jahren habe ich an der Hochschule Neubrandenburg gearbeitet, und zwar im Bereich Photogrammetrie und Geoinformatik. Nach meiner Pensionierung bin ich unter anderem f&#252r den DAAD unterwegs." + "<br>" + "<br>" + "5.8.2022, Wolfgang Kresse",
+		"link": "",
+		"fecha": "",
+		"direccion": "",
+		"copyright": "",
+		"fichero": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#000",
+        "coordinates": [
+          -74.260000,
+		  -13.207000    
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lugar": "Leyenda",
+		"text": "rojo = Objetos individuales" + "<br>" + "naranja = Calles" + "<br>" + "amarillo = Iglesias" + "<br>" + "verde = Verde" + "<br>" + "azul claro = Panoramas" + "<br>" + "morado = Fiestas" + "<br>" + "marr&#243n = Vivienda y trabajo" + "<br>" + "----------" + "<br>" + "rot = Einzelobjekte" + "<br>" + "orange = Stra&#223en" + "<br>" + "gelb = Kirchen" + "<br>" + "gr&#252n = Gr&#252n" + "<br>" + "hellblau = Panoramen" + "<br>" + "lila = Feste" + "<br>" + "braun = Wohnen und Arbeit",
+		"link": "",
+		"fecha": "",
+		"direccion": "",
+		"copyright": "",
+		"fichero": "" 
+      },
+      "geometry": {
+        "type": "Point",
+		"color": "#000",
+        "coordinates": [
+          -74.170000,
+		  -13.207000 
+        ]
+      }
+    }
+  ]
+};
